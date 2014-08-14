@@ -1,0 +1,36 @@
+{
+  "name": "hapi-docs",
+  "version": "0.0.0",
+  "description": "Hapi route documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor -w lib,lib/controllers,templates,templates/css -e node,js,html,css server.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://TylerGarlick@github.com/TylerGarlick/hapi-docs.git"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "docs",
+    "documentation"
+  ],
+  "author": "Tyler Garlick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerGarlick/hapi-docs/issues"
+  },
+  "homepage": "https://github.com/TylerGarlick/hapi-docs",
+  "devDependencies": {
+    "joi": "~4.6.2",
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4",
+    "hapi": "~6.5.1"
+  },
+  "dependencies": {
+    "joi": "~4.6.2",
+    "lodash": "~2.4.1"
+  }
+}
